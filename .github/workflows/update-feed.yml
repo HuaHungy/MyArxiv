@@ -11,6 +11,10 @@ on:
     # Recommended tool: https://crontab.guru/
     - cron: "12 5 * * *"
 
+# Grant write permission so gh-pages deployment can push to the gh-pages branch
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
