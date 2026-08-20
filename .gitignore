@@ -7,6 +7,10 @@
 # NotFeed Files
 /target/
 
+# Local binaries & backups (not required for CI build)
+arxivfeed
+config.toml.bak
+
 # Logs
 logs
 *.log
